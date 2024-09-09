@@ -31,7 +31,7 @@ function showData(dataArray) {
       // Recorrer los datos y mostrarlos en el contenedor
       data.forEach(persona => {
         const div = document.createElement('div');
-        div.textContent = `${persona.nombre} ${persona.apellido}`;
+        div.textContent = `${persona.name} ${persona.lastname}`;
         container.appendChild(div);
       });
     })
